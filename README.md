@@ -241,7 +241,22 @@ The training history illustrates how the model's loss decreased while the AUC im
 - Validation loss stabilized after the initial epochs, indicating convergence.
 - Validation AUC reached approximately **0.75**, demonstrating stable discrimination between aneurysm and non-aneurysm cases.
 - The gap between training and validation performance suggests opportunities for further regularization and hyperparameter tuning.
-- 
+
+- # 🏆 Key Results
+
+| Metric | Value |
+|---------|------:|
+| Best Validation ROC-AUC | **0.7621** |
+| Aneurysm Recall | **90%** |
+| Final Training ROC-AUC | **0.9321** |
+| Final Training Loss | **0.5246** |
+
+### Clinical Interpretation
+
+- The model achieved a **Validation ROC-AUC of 0.7621**, demonstrating good discrimination between aneurysm-positive and aneurysm-negative examinations.
+- The model detected **90% of aneurysm-positive cases**, making it suitable as a high-sensitivity computer-aided detection (CAD) prototype.
+- The confusion matrix indicates that the model prioritizes sensitivity over specificity, an appropriate trade-off for medical screening applications where missing a true aneurysm is more critical than generating additional radiologist reviews.
+- Learning curves indicate stable optimization with mild overfitting after the second epoch, suggesting that additional data, regularization, and hyperparameter tuning could further improve performance.
 ---
 
 # 🧰 Technologies Used
@@ -291,16 +306,21 @@ This project demonstrates practical experience in:
 
 # 🚀 Future Improvements
 
-Potential enhancements include:
-
-- 3D CNN architectures
-- Vision Transformers (ViT)
-- MONAI medical imaging framework
-- Segmentation-based aneurysm localization
-- Ensemble deep learning models
-- Clinical deployment using TorchServe
+- Train on the complete RSNA Intracranial Aneurysm Detection dataset.
+- Apply stronger data augmentation techniques.
+- Perform k-fold cross-validation.
+- Implement early stopping and hyperparameter optimization.
+- Evaluate newer architectures such as EfficientNet-V2 and ConvNeXt.
+- Incorporate explainable AI methods (Grad-CAM, attention visualization) to improve clinical interpretability.
 
 ---
+
+# 📌 Project Summary
+
+This project demonstrates an end-to-end deep learning pipeline for automated intracranial aneurysm detection using DICOM brain CT angiography images from the RSNA Intracranial Aneurysm Detection Challenge. The workflow includes DICOM preprocessing, image normalization, localization-aware 2.5D input generation, EfficientNet-B0 transfer learning, and comprehensive evaluation using ROC-AUC, confusion matrices, and learning curves.
+
+The project highlights practical experience with medical imaging, computer vision, PyTorch, transfer learning, and healthcare AI, providing a strong foundation for developing clinically relevant AI-assisted diagnostic systems.
+
 
 # ▶️ Running the Project
 
