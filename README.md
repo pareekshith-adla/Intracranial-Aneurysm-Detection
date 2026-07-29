@@ -100,6 +100,14 @@ Medical CT angiography images undergo intensity normalization and preprocessing 
   <img src="images/normalized_dicom_slice.png" width="750">
 </p>
 
+## 🧩 2.5D Input Generation
+
+Instead of using a single CT slice, the model constructs a 2.5D representation by combining the previous, center, and next slices into a three-channel input. This provides additional anatomical context while remaining computationally efficient compared to full 3D volumes.
+
+<p align="center">
+  <img src="images/2_5d_input_stack.png" width="850">
+</p>
+
 # ⚙️ Project Workflow
 
 ## 1. Data Loading
