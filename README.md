@@ -132,6 +132,14 @@ The RSNA dataset provides expert-annotated aneurysm locations. The red marker in
   <img src="images/annotated_aneurysm_location.png" width="600">
 </p>
 
+## 🔍 Zoomed Aneurysm Localization
+
+To better visualize the annotated lesion, the aneurysm region is magnified around the expert-provided annotation. This close-up highlights the target anatomy used for localization-aware training and demonstrates the precision of the annotation process.
+
+<p align="center">
+  <img src="images/zoomed_aneurysm_localization.png" width="450">
+</p>
+
 # ⚙️ Project Workflow
 
 ## 1. Data Loading
