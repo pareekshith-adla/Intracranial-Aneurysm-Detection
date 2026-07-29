@@ -140,6 +140,7 @@ To better visualize the annotated lesion, the aneurysm region is magnified aroun
   <img src="images/zoomed_aneurysm_localization.png" width="450">
 </p>
 
+
 # ⚙️ Project Workflow
 
 ## 1. Data Loading
@@ -206,6 +207,15 @@ Performance evaluated using:
 - ROC Curve
 - Threshold Optimization
 
+## 📊 Model Evaluation
+
+The confusion matrix summarizes the model's classification performance on the validation dataset, highlighting correct predictions and classification errors for both aneurysm and non-aneurysm cases.
+
+<p align="center">
+  <img src="images/confusion_matrix.png" width="550">
+</p>
+
+The model correctly identified **39** non-aneurysm cases and **15** aneurysm cases, while the remaining cases represent false positives and false negatives that can guide future model improvements.
 ---
 
 # 🧰 Technologies Used
