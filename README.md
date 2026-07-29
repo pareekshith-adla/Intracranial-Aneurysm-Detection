@@ -124,6 +124,14 @@ For each annotated aneurysm, the pipeline extracts a localization-centered 2.5D 
   <img src="images/localization_centered_2_5d_stack.png" width="900">
 </p>
 
+## 📍 Ground Truth Aneurysm Annotation
+
+The RSNA dataset provides expert-annotated aneurysm locations. The red marker indicates the annotated basilar tip aneurysm used to generate the localization-centered training samples and supervise the deep learning model.
+
+<p align="center">
+  <img src="images/annotated_aneurysm_location.png" width="600">
+</p>
+
 # ⚙️ Project Workflow
 
 ## 1. Data Loading
