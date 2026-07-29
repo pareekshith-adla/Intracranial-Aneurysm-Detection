@@ -216,6 +216,16 @@ The confusion matrix summarizes the model's classification performance on the va
 </p>
 
 The model correctly identified **39** non-aneurysm cases and **15** aneurysm cases, while the remaining cases represent false positives and false negatives that can guide future model improvements.
+
+## 📈 ROC Curve Analysis
+
+The Receiver Operating Characteristic (ROC) curve evaluates the model's ability to distinguish between aneurysm and non-aneurysm cases across different classification thresholds.
+
+<p align="center">
+  <img src="images/roc_curve.png" width="650">
+</p>
+
+The model achieved a **validation ROC-AUC of 0.7509**, demonstrating a good ability to discriminate between positive and negative cases while outperforming random classification.
 ---
 
 # 🧰 Technologies Used
