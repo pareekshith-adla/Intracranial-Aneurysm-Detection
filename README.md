@@ -84,6 +84,14 @@ Dataset consists of:
 
 ---
 
+## 🧠 Sample Brain CT Slice
+
+The dataset consists of DICOM brain CT angiography images. Below is an example slice visualized during preprocessing.
+
+<p align="center">
+  <img src="images/sample_brain_slice.png" width="550">
+</p>
+
 # ⚙️ Project Workflow
 
 ## 1. Data Loading
