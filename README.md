@@ -116,6 +116,14 @@ The three adjacent CT slices are combined into a single three-channel (RGB-like)
   <img src="images/combined_2_5d_input.png" width="600">
 </p>
 
+## 🎯 Localization-Centered 2.5D Stack
+
+For each annotated aneurysm, the pipeline extracts a localization-centered 2.5D stack consisting of the previous, annotated, and next CT slices. This approach focuses the model on the clinically relevant region while preserving anatomical context from neighboring slices.
+
+<p align="center">
+  <img src="images/localization_centered_2_5d_stack.png" width="900">
+</p>
+
 # ⚙️ Project Workflow
 
 ## 1. Data Loading
