@@ -108,6 +108,7 @@ Instead of using a single CT slice, the model constructs a 2.5D representation b
   <img src="images/2_5d_input_stack.png" width="850">
 </p>
 
+
 # ⚙️ Project Workflow
 
 ## 1. Data Loading
