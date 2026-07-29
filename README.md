@@ -108,6 +108,13 @@ Instead of using a single CT slice, the model constructs a 2.5D representation b
   <img src="images/2_5d_input_stack.png" width="850">
 </p>
 
+## 🧠 Combined 2.5D Model Input
+
+The three adjacent CT slices are combined into a single three-channel (RGB-like) tensor that serves as the model's input. This representation captures spatial context from neighboring slices while remaining computationally efficient compared to full volumetric (3D) processing.
+
+<p align="center">
+  <img src="images/combined_2_5d_input.png" width="600">
+</p>
 
 # ⚙️ Project Workflow
 
