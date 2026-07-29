@@ -226,6 +226,22 @@ The Receiver Operating Characteristic (ROC) curve evaluates the model's ability 
 </p>
 
 The model achieved a **validation ROC-AUC of 0.7509**, demonstrating a good ability to discriminate between positive and negative cases while outperforming random classification.
+
+## 📉 Training Learning Curves
+
+The training history illustrates how the model's loss decreased while the AUC improved across training epochs. These curves help evaluate model convergence, learning stability, and potential overfitting.
+
+<p align="center">
+  <img src="images/training_learning_curves.png" width="900">
+</p>
+
+### Key Observations
+
+- Training loss consistently decreased throughout the training process.
+- Validation loss stabilized after the initial epochs, indicating convergence.
+- Validation AUC reached approximately **0.75**, demonstrating stable discrimination between aneurysm and non-aneurysm cases.
+- The gap between training and validation performance suggests opportunities for further regularization and hyperparameter tuning.
+- 
 ---
 
 # 🧰 Technologies Used
