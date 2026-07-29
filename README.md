@@ -89,15 +89,15 @@ Dataset consists of:
 The dataset consists of DICOM brain CT angiography images. Below is an example slice visualized during preprocessing.
 
 <p align="center">
-  <img src="images/sample_brain_slice.png" width="550">
+  <img src="images/normalized_dicom_slice.png" width="750">
 </p>
 
 ## 🖼️ Image Preprocessing
 
-Medical CT images undergo preprocessing and normalization before being used for model training. This step standardizes pixel intensity values, improving consistency across scans and helping the deep learning model learn more robust features.
+Medical CT angiography images undergo intensity normalization and preprocessing before model training. This process standardizes pixel values across scans, reduces variability, and provides consistent inputs for the deep learning pipeline.
 
 <p align="center">
-  <img src="images/normalized_dicom_slice.png" width="550">
+  <img src="images/normalized_dicom_slice.png" width="750">
 </p>
 
 # ⚙️ Project Workflow
